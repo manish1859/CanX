@@ -11,7 +11,6 @@ const dashboard_route = require('./dashboard');
 const router = express.Router();
 
 
-
 router.use(route);
 router.use(userroute);
 router.use(attendanceroute);
